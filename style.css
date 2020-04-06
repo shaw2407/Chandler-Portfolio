@@ -1,0 +1,626 @@
+@import url('https://fonts.googleapis.com/css?family=Amarante&display=swap');
+/*font-family: 'Amarante', cursive;*/
+
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+/*font-family: 'Bangers', cursive;*/
+
+@import url('https://fonts.googleapis.com/css?family=Share+Tech&display=swap');
+/*font-family: 'Share Tech', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:900&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+
+
+
+
+
+
+
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;	
+}
+
+html{
+	font: 12px/1 'Share Tech', sans-serif;
+	color: #000000;
+}
+
+body{
+	background: black;
+	width: 100%;
+	height: 100%;
+	background: #000000 no-repeat center fixed;
+	background-size: cover;
+}
+
+
+
+/*NAVIGATION START*/
+
+nav{
+	position: fixed;
+	width: 100%;
+	height: 75px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*background:linear-gradient(90deg, #605c3c 0%,#3c3b3f 40%);*/
+	background: rgb(49, 52, 57, .8);
+	/*border-bottom: 1px solid #d1d1d1;*/
+	color: #ffff;
+	text-transform: uppercase;
+	padding-right: 1vw;
+	z-index: 2;
+	opacity: 80%;
+}
+
+
+#logo{
+	font-family: 'Poppins', sans-serif;
+	font-size: 4vh;
+	padding: 1em;
+}
+
+.nav-link{
+	display: flex;
+	font-size: 1.5em;
+}
+
+.nav-link li{
+	list-style: none;
+	padding: 0 0 0 1.5em;
+}
+
+.nav-link a{
+	text-decoration: none;	
+	list-style: none;
+	color: #ffff;	
+}
+
+/*NAVIGATION START*/
+
+
+/*HEADER START*/
+
+header{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	background: black;
+	background-size: cover;
+	float: right;
+}
+
+.splash-pic{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	color: #ffff;
+}
+
+#bio-pic{
+	width: auto;
+	height: 90%;
+	position: absolute;
+}
+
+.qualities{
+	justify-content: flex-end;
+	padding-right: 1em; 
+	width: 100%;
+	display: flex;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-size: 2em;
+	z-index: 1;
+}	
+
+#word-1{
+	font-size: 24vh;
+	transition: 2s ease;
+}
+
+
+.qualities-1{
+	transition: all 1.9s ease 1.5s;
+	display: flex;
+	flex-direction: column;
+	font-size: 9vh;
+	font-weight: bold;
+	font-family: 'Share Tech', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.splash-pic{
+	height: 100vh;
+	width: auto;
+}
+
+#bio-pic{
+	width: auto;
+	height: 100%;
+}
+
+.splash-words{
+	margin: 0;
+	width: 65%;
+	height: 100vh;
+}
+
+.splash-words{
+	margin-right: 1em;
+	display: flex;
+	align-items: center;
+	font-size: 2em;
+	text-transform: uppercase;
+	color: #ffff;
+}
+
+.qualities{
+	position: absolute;
+	width: 45vw;
+	height: 70vh;
+	display: flex;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+}	
+
+#word-1{
+	font-size: 8em;
+	transition: 3s;
+}
+
+
+.qualities-1{
+	display: flex;
+	flex-direction: column;
+	font-size: 3em;
+	font-weight: bold;
+	font-family: 'Share Tech', sans-serif;
+}*/
+
+
+/*HEADER ENDS*/
+
+
+/*ABOUT STARTS*/
+
+#about{
+	height: 50vh;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #000000;
+}
+
+.about-left{
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	background: #ffff;
+}
+
+.about-right{
+	padding-right: 5%;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;	
+	background: #ffff;
+}
+
+#about-pic{
+	width: auto;
+	height: 30vh;
+	margin-right: 5vw;
+}
+
+#about-p{
+	font-family: 'Share Tech', sans-serif;
+	font-size: 2em;
+	margin: auto;
+	text-align: left;
+	/*margin-top: 5vh;*/
+	text-transform: uppercase;
+}
+
+#about-title{
+	font-family: 'Poppins', sans-serif;
+	margin: auto;
+	font-size: 8vh;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-top: 8vh;
+	transform: 2s;
+}
+
+/*ABOUT ENDS*/
+
+/*SERVICES STARTS*/
+
+#services{
+	width: 100%;
+	height: 50vh;
+	background: #000000;
+	color: #ffff;
+}
+
+.service-title{
+	font-family: 'Poppins', sans-serif;
+	height: 15vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.service-logo{
+	width: 100%;
+	height: 20vh;
+	display: flex;
+}
+
+.service-logo img{
+	height: 15vh;
+}
+
+.service-logo .logo{
+	width: 33.333%;
+	margin: auto;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+
+.service-name{
+	width: 100%;
+	height: 10vh;
+	display: flex;
+}
+
+.service-name .name{
+	width: 33.333%;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+}
+
+.service-name{
+	width: 100%;
+	height: 15vh;
+	display: flex;
+}
+
+.service-name .name h1{
+	font-size: 4vh;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+
+
+/*SERVICES ENDS*/
+
+
+/*CONTACT STARTS*/
+
+#contact{
+	width: 100%;
+	height: 80vh;
+	background: #ffff;
+}
+
+.con1{
+	height: 80vh;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+#msg-form{
+	background: rgb(0, 0, 0, .8);
+	color: #ffff;
+	width: 400px;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	padding: 2em;
+}
+
+.con1 #contact-title-1{
+	text-align:  center;
+	margin-right: 1em;
+	font-size: 4em;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+#msg-form h1{
+	text-align:  center;
+	margin: 20px;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+#msg-form #username,
+#msg-form #email{
+	width: 50%;
+	font-size: 12px;
+	padding: 8px 0;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	background: rgb(255, 255, 255, .0);
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	cursor-color: white;
+}
+
+.con1 input[type="text"]:active{
+	border: 1px solid #fff;
+}
+
+#message-field{
+	color: #ffff;
+	outline: none;
+	background: transparent;
+	resize: none;
+	padding: 5px;
+}
+
+#msg-form{
+ 		width: 80%;
+ 		margin: auto;
+ 	}
+
+#send{
+	margin: auto;
+	margin-right: 0;
+	/*margin-top: 10px;*/
+	padding: 10px;
+	border: 1px solid #ffff;
+	cursor: pointer;
+	background: transparent;
+	color: #fff;
+	outline: none;
+}
+
+/*CONTACT ENDS*/
+
+
+/*FOOTER STARTS*/
+
+
+footer{
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	background: rgb(0, 0, 0);
+	color: #ffff;
+}
+
+/*FOOTER ENDS*/
+
+
+
+
+
+
+@media (min-width: 425px){
+	nav{
+		height: 50px;
+	}
+
+	.nav-link{
+		font-size: 1.2em;
+	}
+
+	#logo{
+		font-size: 3vh;
+	}
+
+	#word-1{
+		font-size: 16vh;
+	}
+
+	.qualities-1{
+		font-size: 6vh;
+	}
+
+	#about-pic{
+		margin: 0;
+	}
+
+	#about-title{
+		margin: auto;
+		margin-bottom: 0;
+		margin-left: 0;
+		font-size: 7vh;
+	}
+
+	#about-p{
+		font-family: 'Poppins', sans-serif;
+		font-size: 18px;
+		margin-top: 20px;
+	}
+
+	.service-title{
+		font-size: 4vh;
+	}
+
+	.service-logo img{
+		height: 7vh;
+	}
+
+	#about-pic{
+		margin: auto;
+	}
+
+	.con1 #contact-title-1{
+		color: #ffff;
+		writing-mode: vertical-lr;
+ 		text-orientation: upright;
+ 		padding: .5em;
+ 		font-size: 3em;
+ 		height: 100%;
+ 		background: rgb(0, 0, 0);
+ 		margin: 0;
+ 	}
+
+ 	#msg-form{
+ 		width: 80%;
+ 		margin: auto;
+ 		padding: 1.5em;
+ 	}
+
+ 	#send{
+ 		padding: 5px;
+ 	}
+
+}
+
+
+
+@media (min-width: 576px) {
+	nav{
+		height: 60px;
+	}
+
+	.nav-link{
+		font-size: 1.2em;
+	}
+
+	#word-1{
+		font-size: 20vh;
+	}
+
+	.qualities-1{
+		font-size: 8vh;
+	}
+
+	#about-title{
+		margin: auto;
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+
+	#about-p{
+		margin-top: 15px;
+	}
+
+	#about-pic{
+		margin: auto;
+	}
+
+	.con1 #contact-title-1{
+		color: #ffff;
+		writing-mode: vertical-lr;
+ 		text-orientation: upright;
+ 		padding: .5em;
+ 		font-size: 3em;
+ 		height: 100%;
+ 		background: rgb(0, 0, 0);
+ 	}
+
+ 	#msg-form{
+ 		width: 60%;
+ 		margin: auto;
+ 	}
+
+
+
+
+}
+
+@media (min-width: 992px) {
+	nav{
+		height: 65px;
+	}
+
+	.nav-link{
+		font-size: 1.2em;
+	}
+
+	#word-1{
+		font-size: 24vh;
+	}
+
+	.qualities-1{
+		font-size: 10vh;
+	}
+
+	#about-title{
+		font-size: 7.5vh;
+		margin: auto;
+		margin-bottom: 0;
+		margin-left: 0;
+	}
+
+	#about-p{
+		font-size: 20px;
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	#about-pic{
+		/*margin-right: 4em;*/
+		margin: auto;
+	}
+
+	#about-pic{
+		margin: auto;
+	}
+
+	.con1 #contact-title-1{
+		writing-mode: initial; 		
+ 		font-size: 4em;	
+ 		background: none;
+ 		height: initial;
+ 		color: initial;
+ 		background: rgb(0, 0, 0);
+ 		color: #ffff;
+ 		margin: 1em;
+ 	}
+
+ 	#msg-form{
+ 		width: 400px;
+ 		margin: 0;
+ 	}
+
+}
+
+
+
+@media (min-width: 1200px) { ... }

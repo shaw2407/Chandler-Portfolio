@@ -47,7 +47,7 @@ nav{
 	width: 100%;
 	height: 75px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
 	/*background:linear-gradient(90deg, #605c3c 0%,#3c3b3f 40%);*/
 	background: rgb(49, 52, 57, .8);
@@ -60,11 +60,6 @@ nav{
 }
 
 
-#logo{
-	font-family: 'Poppins', sans-serif;
-	font-size: 4vh;
-	padding: 1em;
-}
 
 .nav-link{
 	display: flex;
@@ -281,7 +276,7 @@ header{
 
 .service-logo{
 	width: 100%;
-	height: 20vh;
+	height: 15vh;
 	display: flex;
 }
 
@@ -309,19 +304,20 @@ header{
 
 .service-name .name{
 	width: 33.333%;
-	height: 10vh;
+	/*height: 10vh;*/
 	display: flex;
 	justify-content: center;
+	margin: auto;
 }
 
 .service-name{
 	width: 100%;
-	height: 15vh;
+	height: 20vh;
 	display: flex;
 }
 
 .service-name .name h1{
-	font-size: 4vh;
+	font-size: 2em;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -336,16 +332,12 @@ header{
 
 #contact{
 	width: 100%;
-	height: 80vh;
+	height: 95vh;
 	background: #ffff;
 }
 
 .con1{
-	height: 80vh;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
+	height: 95;
 }
 
 
@@ -353,7 +345,8 @@ header{
 	background: rgb(0, 0, 0, .8);
 	color: #ffff;
 	width: 400px;
-	height: 80%;
+	height: 400px;
+ 	margin: auto;
 	display: flex;
 	flex-direction: column;
 	padding: 2em;
@@ -361,10 +354,11 @@ header{
 
 .con1 #contact-title-1{
 	text-align:  center;
-	margin-right: 1em;
 	font-size: 4em;
 	text-transform: uppercase;
 	font-family: 'Poppins', sans-serif;
+	padding: 30px;
+	margin: 20px;
 }
 
 
@@ -401,15 +395,9 @@ header{
 	padding: 5px;
 }
 
-#msg-form{
- 		width: 80%;
- 		margin: auto;
- 	}
-
 #send{
 	margin: auto;
 	margin-right: 0;
-	/*margin-top: 10px;*/
 	padding: 10px;
 	border: 1px solid #ffff;
 	cursor: pointer;
@@ -437,83 +425,98 @@ footer{
 
 
 
+@media (min-width: 320px) and (max-width: 480px){
 
-@media only screen and (min-width: 425px){
 	nav{
 		height: 50px;
+		display: flex;
+		justify-content: space-around;
+		padding: 0;
 	}
 
 	.nav-link{
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 
-	#logo{
-		font-size: 3vh;
+
+	header{
+		background: url("./images/splash-pic.jpg");
+		background-size: cover;
+	}
+
+	.splash-pic img{
+		height: 100vh;
 	}
 
 	#word-1{
-		font-size: 16vh;
+		font-size: 3em;
 	}
 
 	.qualities-1{
-		font-size: 6vh;
+		font-size: 1.2em;
 	}
 
-	#about-pic{
-		margin: 0;
+	.qualities{
+		display: flex;
+		justify-content: center;
+		padding: 0;
 	}
 
 	#about-title{
 		margin: auto;
 		margin-bottom: 0;
 		margin-left: 0;
-		font-size: 7vh;
+		font-size: 2em;
 	}
 
 	#about-p{
 		font-family: 'Poppins', sans-serif;
-		font-size: 18px;
+		font-size: 12px;
 		margin-top: 20px;
 	}
 
 	.service-title{
-		font-size: 4vh;
+		font-size: 1.5em;
 	}
 
 	.service-logo img{
-		height: 7vh;
+		height: 5vh;
+	}
+
+
+	#bio-pic{
+		display: none;
 	}
 
 	#about-pic{
 		margin: auto;
 	}
 
+	#msg-form{
+		padding: 20px;
+		width: 100%;
+		height: 71vh;
+	}
+
 	.con1 #contact-title-1{
-		color: #ffff;
-		writing-mode: vertical-lr;
- 		text-orientation: upright;
- 		padding: .5em;
- 		font-size: 3em;
- 		height: 100%;
- 		background: rgb(0, 0, 0);
- 		margin: 0;
- 	}
+		margin: 0;
+		font-size: 2em;
+	}
 
- 	#msg-form{
- 		width: 80%;
- 		margin: auto;
- 		padding: 1.5em;
- 	}
+	#contact{
+		height: 85vh;
+	}
 
- 	#send{
- 		padding: 5px;
- 	}
-
+	.con1{
+		height: 85vh;
+	}
 }
 
 
 
-@media only screen and (min-width: 576px) {
+/*@media (min-width: 481px) and (max-width: 767px)*/
+
+@media (min-width: 481px) and (max-width: 576px){
 	nav{
 		height: 60px;
 	}
@@ -522,6 +525,10 @@ footer{
 		font-size: 1.2em;
 	}
 
+	.qualities{
+		padding: 0;
+		justify-content: center;
+	}
 	#word-1{
 		font-size: 20vh;
 	}
@@ -531,12 +538,15 @@ footer{
 	}
 
 	#about-title{
+		font-size: 3.5em;
 		margin: auto;
 		margin-left: 0;
 		margin-bottom: 0;
 	}
 
+
 	#about-p{
+		font-size: 18px;
 		margin-top: 15px;
 	}
 
@@ -544,41 +554,38 @@ footer{
 		margin: auto;
 	}
 
+	.service-title{
+		font-size: 2em;
+	}
+
+	.service-logo img{
+		height: 5vh;
+	}
+
 	.con1 #contact-title-1{
-		color: #ffff;
-		writing-mode: vertical-lr;
- 		text-orientation: upright;
- 		padding: .5em;
- 		font-size: 3em;
- 		height: 100%;
- 		background: rgb(0, 0, 0);
- 	}
-
- 	#msg-form{
- 		width: 60%;
- 		margin: auto;
- 	}
-
-
+		margin: 0;
+		font-size: 3em;
+	}
 
 
 }
 
-@media only screen and (min-width: 922px){
+@media (min-width: 577px) and (max-width: 1024px){
 	nav{
 		height: 65px;
 	}
+
 
 	.nav-link{
 		font-size: 1.2em;
 	}
 
 	#word-1{
-		font-size: 24vh;
+		font-size: 21vh;
 	}
 
 	.qualities-1{
-		font-size: 10vh;
+		font-size: 8vh;
 	}
 
 	#about-title{
@@ -603,24 +610,12 @@ footer{
 		margin: auto;
 	}
 
-	.con1 #contact-title-1{
-		writing-mode: initial; 		
- 		font-size: 4em;	
- 		background: none;
- 		height: initial;
- 		color: initial;
- 		background: rgb(0, 0, 0);
- 		color: #ffff;
- 		margin: 1em;
- 	}
-
- 	#msg-form{
- 		width: 400px;
- 		margin: 0;
- 	}
 
 }
 
 
 
-@media (min-width: 1200px) { ... }
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+}

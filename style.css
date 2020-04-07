@@ -238,6 +238,8 @@ header{
 	font-family: 'Share Tech', sans-serif;
 	font-size: 2em;
 	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
 	text-align: left;
 	/*margin-top: 5vh;*/
 	text-transform: uppercase;
@@ -249,7 +251,7 @@ header{
 	font-size: 8vh;
 	margin-bottom: 0;
 	margin-left: 0;
-	margin-top: 8vh;
+	margin-top: 70px;
 	transform: 2s;
 }
 

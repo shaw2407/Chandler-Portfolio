@@ -440,6 +440,7 @@ header{
 	}
 
 	#contact{
+		position: absolute;
 		height: 400px;
 		width: 100%;
 		background: #ffff;
@@ -500,6 +501,7 @@ header{
 	}
 
 	#message-field{
+		height: 120px;
 		width: 100%;
 		margin: auto;
 		margin-top: 10px;

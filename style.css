@@ -455,6 +455,7 @@ footer{
 
 	#msg-form label{
 		margin: 5px 0;
+		margin-bottom: 0;
 	}
 
 	#username,

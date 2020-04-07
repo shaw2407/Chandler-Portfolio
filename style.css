@@ -440,13 +440,13 @@ header{
 	}
 
 	#contact{
-		height: 65vh;
+		height: 400px;
 		width: 100%;
 		background: #ffff;
 	}
 
 	.con1{
-		height: 65vh;
+		height: 400px;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
@@ -455,7 +455,7 @@ header{
 
 	.con1 #contact-title-1{
 		width: 100%;
-		height: 10vh;
+		height: 10%;
 		font-family: 'Poppins', sans-serif;
 		text-transform: uppercase;
 		text-align: center;

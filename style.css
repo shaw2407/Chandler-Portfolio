@@ -438,7 +438,6 @@ footer{
 		font-size: 1em;
 	}
 
-
 	header{
 		background: url("./images/splash-pic.jpg");
 		background-size: cover;
@@ -481,6 +480,14 @@ footer{
 
 	.service-logo img{
 		height: 5vh;
+	}
+
+	.service-name .name h1{
+		font-size: 20px;
+	}
+
+	#about-pic{
+		height: 50%;
 	}
 
 
@@ -606,9 +613,6 @@ footer{
 		margin: auto;
 	}
 
-	#about-pic{
-		margin: auto;
-	}
 
 
 }

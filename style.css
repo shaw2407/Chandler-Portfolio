@@ -464,6 +464,15 @@ footer{
 		height: 30vh;
 	}
 
+	#about-title{
+		font-size: 18px;
+	}
+
+	#about-p{
+		font-size: 12px;
+		padding-right: 1em;
+	}
+
 
 	#about-pic{
 		height: 40%;

@@ -529,6 +529,10 @@ footer{
 		height: 71vh;
 	}
 
+	#message-field{
+		height: 120px;
+	}
+
 	.con1 #contact-title-1{
 		margin: 0;
 		font-size: 2em;

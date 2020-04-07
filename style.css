@@ -440,13 +440,13 @@ header{
 	}
 
 	#contact{
-		height: 60vh;
+		height: 65vh;
 		width: 100%;
 		background: #ffff;
 	}
 
 	.con1{
-		height: 60vh;
+		height: 65vh;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
@@ -468,18 +468,29 @@ header{
 
 	#msg-form{
 		height: 80%;
-		width: 60%;
+		width: 75%;
 		background: rgb(0, 0, 0, .8);
 		display: flex;
 		flex-direction: column;
 		padding: 10px;
+	}
+	
+	#msg-form h1{
+		text-align: center;
+		margin: 5px;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+	}
+
+	#msg-form label{
+		margin: 5px 0;
 	}
 
 	#username,
 	#email{
 		width: 50%;
   		font-size: 12px;
-		padding: 8px 0;
+		padding: 5px;
 		border: none;
 		outline: none;
 		background: rgb(255, 255, 255, .0);

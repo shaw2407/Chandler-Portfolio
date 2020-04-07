@@ -331,81 +331,6 @@ header{
 
 /*CONTACT STARTS*/
 
-#contact{
-	width: 100%;
-	height: 95vh;
-	background: #ffff;
-}
-
-.con1{
-	height: 95;
-}
-
-
-#msg-form{
-	background: rgb(0, 0, 0, .8);
-	color: #ffff;
-	width: 400px;
-	height: 400px;
- 	margin: auto;
-	display: flex;
-	flex-direction: column;
-	padding: 2em;
-}
-
-.con1 #contact-title-1{
-	text-align:  center;
-	font-size: 4em;
-	text-transform: uppercase;
-	font-family: 'Poppins', sans-serif;
-	padding: 30px;
-	margin: 20px;
-}
-
-
-#msg-form h1{
-	text-align:  center;
-	margin: 20px;
-	font-size: 2em;
-	text-transform: uppercase;
-}
-
-#msg-form #username,
-#msg-form #email{
-	width: 50%;
-	font-size: 12px;
-	padding: 8px 0;
-	margin-bottom: 20px;
-	border: none;
-	outline: none;
-	background: rgb(255, 255, 255, .0);
-	border-bottom: 1px solid #fff;
-	color: #fff;
-	cursor-color: white;
-}
-
-.con1 input[type="text"]:active{
-	border: 1px solid #fff;
-}
-
-#message-field{
-	color: #ffff;
-	outline: none;
-	background: transparent;
-	resize: none;
-	padding: 5px;
-}
-
-#send{
-	margin: auto;
-	margin-right: 0;
-	padding: 10px;
-	border: 1px solid #ffff;
-	cursor: pointer;
-	background: transparent;
-	color: #fff;
-	outline: none;
-}
 
 /*CONTACT ENDS*/
 
@@ -413,16 +338,7 @@ header{
 /*FOOTER STARTS*/
 
 
-footer{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 3vh;
-	font-family: 'Poppins', sans-serif;
-	text-align: center;
-	background: rgb(0, 0, 0);
-	color: #ffff;
-}
+
 
 /*FOOTER ENDS*/
 
@@ -523,28 +439,78 @@ footer{
 		display: none;
 	}
 
-	#msg-form{
-		padding: 20px;
-		width: 100%;
-		height: 71vh;
-	}
-
-	#message-field{
-		height: 120px;
-	}
-
-	.con1 #contact-title-1{
-		margin: 0;
-		font-size: 2em;
-	}
-
 	#contact{
-		height: 85vh;
+		height: 60vh;
+		width: 100%;
+		background: #ffff;
 	}
 
 	.con1{
-		height: 85vh;
+		height: 60vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
 	}
+
+	.con1 #contact-title-1{
+		width: 100%;
+		height: 10vh;
+		font-family: 'Poppins', sans-serif;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 2.5em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/*padding: 10px;*/
+	}
+
+	#msg-form{
+		height: 80%;
+		width: 60%;
+		background: rgb(0, 0, 0, .8);
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+	}
+
+	#username,
+	#email{
+		width: 50%;
+  		font-size: 12px;
+		padding: 8px 0;
+		border: none;
+		outline: none;
+		background: rgb(255, 255, 255, .0);
+		border-bottom: 1px solid #fff;
+		color: #fff;
+		cursor-color: white;
+	}
+
+	#message-field{
+		width: 100%;
+		margin: auto;
+		margin-top: 10px;
+		color: #ffff;
+		outline: none;
+		background: transparent;
+		resize: none;
+		padding: 5px;
+	}
+
+	#send{
+		margin: auto;
+		margin-right: 0;
+		/*margin-top: 10px;*/
+		padding: 5px;
+		border: 1px solid #ffff;
+		cursor: pointer;
+		background: transparent;
+		color: #fff;
+		outline: none;
+	}
+
 }
 
 
@@ -596,12 +562,6 @@ footer{
 	.service-logo img{
 		height: 5vh;
 	}
-
-	.con1 #contact-title-1{
-		margin: 0;
-		font-size: 3em;
-	}
-
 
 }
 

@@ -388,6 +388,7 @@ header{
 }
 
 #message-field{
+	position: relative;
 	color: #ffff;
 	outline: none;
 	background: transparent;

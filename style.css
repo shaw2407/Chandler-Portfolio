@@ -293,9 +293,6 @@ header{
 }
 
 
-
-
-
 .service-name{
 	width: 100%;
 	height: 10vh;
@@ -521,6 +518,60 @@ footer{
 
 	.con1{
 		height: 85vh;
+	}
+}
+
+
+@media (min-width: 420px) and (max-width: 576px) and (orientation: landscape){
+	#about{
+		height: 40vh;
+	}
+
+	.about-left{
+		height: 40vh;
+	}
+
+	.about-right{
+		height: 40vh;
+	}
+
+	.service-name .name h1{
+		font-size: 12px;
+	}
+
+	#services{
+		height: 30vh;
+	}
+
+	.service-title{
+		height: 10vh;
+	}
+
+	.service-logo{
+		height: 10vh;
+	}
+
+	.service-name{
+		height: 10vh;
+	}
+
+	#contact{
+		height: 97vh;
+	}
+
+	.con1{
+		height: 100%;
+	}
+
+	.con1 #contact-title-1{
+		font-size: 2em;
+		padding: 10px;
+	}
+
+	#msg-form{
+		width: 100%;
+		height: 90%;
+		padding: 20px 40px;
 	}
 }
 

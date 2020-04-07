@@ -442,7 +442,8 @@ footer{
 		background: rgb(0, 0, 0, .8);
 		display: flex;
 		flex-direction: column;
-		padding: 10px;
+		padding: 20px;
+		color: #ffff;
 	}
 	
 	#msg-form h1{
@@ -470,7 +471,7 @@ footer{
 	}
 
 	#message-field{
-		height: 120px;
+		height: 100px;
 		width: 100%;
 		margin: auto;
   		font-size: 12px;
@@ -734,6 +735,7 @@ footer{
 	}
 	
 	#msg-form h1{
+		color: #ffff;
 		font-size: 2em;
 		color: #ffff;
 		text-align: center;

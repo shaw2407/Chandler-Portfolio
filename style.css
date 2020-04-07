@@ -548,6 +548,7 @@ footer{
 		padding: 20px;
 		color: #ffff;
 		margin: auto;
+		margin-top: 0;
 	}
 	
 	#msg-form h1{

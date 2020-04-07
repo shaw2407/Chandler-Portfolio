@@ -440,13 +440,15 @@ header{
 	}
 
 	#contact{
-		position: absolute;
+		/*position: absolute;*/
 		height: 400px;
 		width: 100%;
 		background: #ffff;
 	}
 
 	.con1{
+		position: absolute;
+		width: 100%;
 		height: 400px;
 		display: flex;
 		flex-direction: column;
@@ -504,6 +506,7 @@ header{
 		height: 120px;
 		width: 100%;
 		margin: auto;
+  		font-size: 12px;
 		margin-top: 10px;
 		color: #ffff;
 		outline: none;
@@ -522,6 +525,14 @@ header{
 		background: transparent;
 		color: #fff;
 		outline: none;
+	}
+
+	footer{
+		font-family: 'Poppins', sans-serif;
+		width: 100%;
+		margin: auto;
+		color: #ffff;
+		text-align: center;
 	}
 
 }

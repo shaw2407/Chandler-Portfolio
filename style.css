@@ -523,7 +523,7 @@ footer h3{
 }
 
 
-@media (min-width: 420px) and (max-width: 576px) and (orientation: landscape){
+@media (min-width: 420px) and (max-width: 800px) and (orientation: landscape){
 	#about{
 		height: 40vh;
 	}
@@ -567,6 +567,7 @@ footer h3{
 	.con1 #contact-title-1{
 		font-size: 2em;
 		padding: 10px;
+		margin: 0;
 	}
 
 	#msg-form{

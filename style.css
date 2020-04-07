@@ -410,11 +410,16 @@ header{
 
 
 footer{
-	left: 25%;
+	display: block;
+	text-align: center;
 	height: 3vh;
 	font-family: 'Poppins', sans-serif;
 	background: rgb(0, 0, 0);
 	color: #ffff;
+}
+
+footer h3{
+	margin: auto;
 }
 
 /*FOOTER ENDS*/
@@ -552,11 +557,11 @@ footer{
 	}
 
 	#contact{
-		height: 97vh;
+		height: 90vh;
 	}
 
 	.con1{
-		height: 100%;
+		height: 90vh;
 	}
 
 	.con1 #contact-title-1{
@@ -565,7 +570,6 @@ footer{
 	}
 
 	#msg-form{
-		position: absolute;
 		width: 100%;
 		height: 90%;
 		padding: 20px 40px;

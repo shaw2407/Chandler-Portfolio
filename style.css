@@ -234,14 +234,14 @@ header{
 
 #about-p{
 	font-family: 'Share Tech', sans-serif;
-	font-size: 24px;
-	padding-right: 5em;
+	/*font-size: 24px;*/
+	/*padding-right: 5em;*/
 	text-align: left;
 }
 
 #about-title{
 	font-family: 'Poppins', sans-serif;
-	font-size: 4em;
+	/*font-size: 4em;*/
 }
 
 /*ABOUT ENDS*/

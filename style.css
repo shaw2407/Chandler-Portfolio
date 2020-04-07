@@ -410,13 +410,10 @@ header{
 
 
 footer{
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	position: absolute;
+	left: 25%;
 	height: 3vh;
 	font-family: 'Poppins', sans-serif;
-	text-align: center;
 	background: rgb(0, 0, 0);
 	color: #ffff;
 }

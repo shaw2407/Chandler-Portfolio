@@ -234,7 +234,7 @@ header{
 
 #about-p{
 	font-family: 'Share Tech', sans-serif;
-	/*font-size: 24px;*/
+	font-size: 24px;	
 	/*padding-right: 5em;*/
 	text-align: left;
 }
